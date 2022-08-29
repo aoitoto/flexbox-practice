@@ -1,0 +1,77 @@
+.green {
+    background-color: rgb(176, 245, 176);
+    border: 5px solid rgb(8, 160, 8);
+    height: 400px;
+    width: 600px;
+    margin: auto;
+}
+
+.blue-top,
+.blue-bottom {
+    display: flex;
+    background-color: lightblue;
+    border: 5px solid blue;
+    height: 60px;
+    width: auto;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.blue-bottom {
+    margin-top: 20px;
+}
+.orange-1, .orange-2 {
+    background-color: rgb(224, 204, 155);
+    border: 3px solid rgb(235, 171, 52);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    height: 35px;
+    width: 160px;
+}
+
+.orange-2 {
+    width: 60px;
+    height: 45px;
+    margin: 5px;
+}
+
+.red {
+    background-color: rgb(247, 183, 183);
+    border: 2px solid red;
+    width: 100px;
+    height: 20px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink-big,
+.pink-small {
+    background-color: lightpink;
+    border: 5px solid rgb(218, 125, 140);
+    display: flex;
+    width: 300px;
+    margin: 10px;
+}
+
+.pink-big {
+    height: 150px;
+}
+.pink-small {
+    height: 65px;
+}
+
+.pink {
+    display: flex;
+    justify-content: space-around;
+}
+
+.purple {
+    background-color: rgb(212, 192, 244);
+    border: 3px solid rgb(141, 72, 175);
+    width: 180px;
+    justify-content: space-around;
+    margin: 5px;
+}
